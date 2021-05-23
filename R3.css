@@ -1,0 +1,17 @@
+
+video {
+    width: 100%;
+}
+.primer_div {
+    display:flex;
+    height: 50vh;
+    max-width: 90vw;
+    background: url(./media/imagen_vid.png) no-repeat center/cover;
+    background-attachment:local;
+    justify-content: center;
+    margin:2em;
+    padding:1em;
+}
+.segundo_div{
+    padding-top: 2em;
+}

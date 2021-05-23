@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Multimedia Responsive</title>
+    <link rel="icon" href="./media/logo.jpg">
+    <!-- Importando Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="R3.css">
+    <script src="R3.js" language="javascript" type="text/javascript"></script>
+    <meta name="author" content="Sabrina Galera">
+    <meta name="description" content="Maquetación de contenido multimedia">
+    <meta name="keywords" content="Maquetación, HTML, CSS, JS, Video, FrontEnd">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5 col-sm-10 mx-auto my-2 primer_div">
+                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <span class="iconify" data-icon="bi:play-circle" data-inline="false"></span>
+                </button>
+                <!-- Modal con Bootstrap-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <video controls>  
+                                   <source src="./media/video_mount.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 m-auto mx-auto my-2 segundo_div">
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel necessitatibus, expedita nobis ad, voluptatem saepe eaque quisquam nulla dolorum obcaecati, provident aut assumenda ducimus esse autem incidunt sit sint omnis?</p>
+            </div>
+        </div>
+    </div>
+    <!--Importando play icon-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <!--Importando Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
